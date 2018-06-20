@@ -26,7 +26,7 @@ public class RoncooSpringBoot {
 		logger.info("Start generator ...");
 		List<String> warnings = new ArrayList<String>();
 		boolean overwrite = true; // 是否覆盖原来的文件
-		File configFile = new File("D:/workspace-roncoo/roncoo-mybatis-generator/src/test/resources/roncoo-spring-boot.xml");
+		File configFile = new File("D:/roncoo-mybatis-generator/src/test/resources/roncoo-spring-boot.xml");
 		ConfigurationParser cp = new ConfigurationParser(warnings);
 		Configuration config = cp.parseConfiguration(configFile);
 		DefaultShellCallback callback = new DefaultShellCallback(overwrite);

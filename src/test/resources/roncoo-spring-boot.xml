@@ -23,7 +23,7 @@
 
 		<commentGenerator>
 			<!-- 是否去除自动生成的注释，默认false，true：去除；false：不去除 -->
-			<property name="suppressAllComments" value="true" />
+			<property name="suppressAllComments" value="false" />
 			<!-- 指定在生成的注释是否将包括时间戳，默认是false -->
 			<property name="suppressDate" value="true" />
 		</commentGenerator>
